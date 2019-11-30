@@ -1,0 +1,16 @@
+.button{
+
+width: 245px;
+height: 75px;
+text-align: center;
+z-index: 1000;
+background: var(--orange);
+border-radius: 35px;
+text-decoration: none;
+
+a{
+    text-decoration: none;
+    color:#FFF;
+    font: 400 18px/21px $roboto;
+}
+}

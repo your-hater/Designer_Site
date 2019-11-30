@@ -1,0 +1,24 @@
+.secfooter {
+  background: #333333;
+  height: 150px;
+  width: 100%;
+
+  .end-footer a {
+    color: #fff;
+    margin: 0 200px 0 100px;
+  }
+
+  .end-footer {
+    display: flex;
+    padding-top: 100px;
+
+    .icon {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .social {
+    margin-left: 50px;
+  }
+}

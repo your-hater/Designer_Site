@@ -1,0 +1,60 @@
+.footer{
+    background: url(../images/foot-bg-pc.png) no-repeat left bottom;
+  background-size: cover;
+  height:790px;
+   
+    &__text{
+        width:610px;
+        font:400 20px/23px $roboto;
+        padding:200px 0 0 18%;
+        color:#402F42;
+        &--one{
+            margin-bottom: 30px;
+        }
+
+        &--two{
+            margin-bottom: 30px;
+        }
+
+        &--three{
+            margin-bottom: 30px;
+        }
+    }
+
+.frame{
+    background: url(../images/frame.png)no-repeat center center;
+    background-size: cover;
+    width:430px;
+    height: 520px;
+   margin-top:100px;
+    text-align: center;
+    padding-top: 100px;
+    
+
+    &--title{
+        color:var(--orange);
+        font:700 24px/29px $montserrat;
+    }
+    .frame--description{
+        width:250px;
+        margin-left: 90px;
+        margin-top:50px;
+        color:var(--white);
+        font:700 24px/28px $roboto;
+    }
+    .button{
+        margin-left:100px;
+        margin-top:100px;
+        padding-top:25px;
+    }
+}
+
+.gift{
+    color:var(--orange);
+}
+}
+
+.foot{
+    display:flex;
+    justify-content: space-between;
+}

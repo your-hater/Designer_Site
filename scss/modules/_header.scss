@@ -1,0 +1,71 @@
+.header {
+  background: url(../images/header-bg-pc.png) no-repeat left center;
+  background-size: cover;
+
+  height: 100vh;
+
+  left: 0;
+  top: 0;
+
+  .logg{
+    margin-right:100px;
+  }
+  
+  .mmenu{
+    display: flex;
+    margin-top:30px;
+  }
+  
+.title{
+text-align: unset;
+}
+
+  &__title--black {
+    color: #402f42;
+    font:700 16px/20px $montserrat;
+  }
+
+  &__title--yellow{
+    color:var(--orange);
+    font:700 16px/20px $montserrat;
+  }
+
+  .header__menu a{
+    margin-right: 50px;
+    color:#402F42;
+    font:400 18px/21px $roboto;
+  }
+
+  .mainText{
+    margin-top:100px;
+    .title{
+      font: 700 60px/73px $montserrat;
+    }
+    .description{
+      font: 400 18px/21px $roboto;
+      color:#402F42;
+    }
+  }
+
+  .tt-1{
+    color:#402F42
+  }
+
+  .tt-2{
+    color:#F28F19;
+  }
+  
+  .button{
+    margin:120px auto 0 50%;
+  }
+}
+
+.button a {
+  margin-top:20px;
+}
+
+.icon-header{
+  fill:#402F42;
+  width:25px;
+  height:20px;
+}
